@@ -1,0 +1,179 @@
+<html>
+  <head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title>Catheartic Magazine</title>
+    
+    <style>
+    body {
+  background-color: rgb(135,206,235)
+}
+
+#main_header {
+  background-color: rgb(0,0,0)
+
+}
+td {
+  color: white
+}
+
+.first_column_2
+{
+	width: 1%
+}
+
+a {
+	 color: white
+}
+
+p {
+font-family: stellar_moonregular;
+}
+
+h1 {
+font-family: stellar_moonregular;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.slogan {
+  position: absolute;
+  up: 50%;
+  left: 50%;
+  transform: translate(-50%, -160%);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+
+}
+
+.submit_button {
+  background-color: #000000;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(1,1,1,0.2), 0 6px 20px 0 rgba(1,1,1,0.19);
+}
+
+.submit_button:hover {
+	color: black;
+	background-color: #FFFFFF;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 2px 2px 2px 2px
+}
+
+
+    </style>
+	<script>
+	function redir_to_submit() {
+	window.location.href = "https://docs.google.com/forms/d/1XdedaNNmkocmXL2TtnI3AfbMZ9z9WY7lgCiBpFPq5nY/viewform";
+	}
+	</script>
+	
+  </head>
+  
+  
+  <body>
+    	<div id="main_header">
+      	<table>
+        	<tr class="main_header">
+          	<td class="first_column_1">
+							<img src="https://raw.githubusercontent.com/Codeer12/catheartic/main/cathearticlogo.jpg" width="100"
+					
+						</td>
+          	<td class="first_column_2"><a href="/">Home</a></td>
+        	</tr>
+        	<tr>
+				</table>
+					</div>
+	<div id="container">
+			<img src="https://github.com/Codeer12/catheartic/blob/main/IMG_40662.PNG?raw=true" width=100%>
+		  <h1 class="slogan">Cathartic for the heart</h1>
+	
+		</div>
+        
+        <section>
+			<table>
+				<tr>
+					<td style="width: 5%; color: rgb(135,206,235)">.</td>
+					<td style="width: 90%; background-color: black">
+						<br>
+						<h1 style="text-align:center">About Catheartic</h1>
+						<p style="text-align:center">Catheartic, established in June 2023, is a literary and arts magazine for youth centered around mental wellness that wants to help express teen opinions. The name expresses the importance of the release of stressors on one's heart for the sake of their mental and physical health.</p>
+						<img class="center" src="https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png" style="filter: invert(1)" width=50 height=50>
+					</td>
+					<td style="width: 5%">.</td>
+				</tr>
+				<tr>
+					<td style="width: 5%; color: rgb(135,206,235)">.</td>
+					<td style="width: 90%; background-color: black">
+						<h1 style="text-align:center;color:white">Get Notified</h1>
+						<iframe class="center" src="https://docs.google.com/forms/d/e/1FAIpQLSeoEGi5eGowaK0CIGOejum0_JxiCss7ocgUG0-4sbqRFFmwBg/viewform?embedded=true" width="640" height="545" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+					
+					<td style="width: 5%; color: rgb(135,206,235)">.</td>
+				</tr>
+	
+				<tr>
+					<td style="width: 5%; color: rgb(135,206,235)">.</td>
+					<td style="width: 90%; background-color: black">
+						<h1 style="text-align: center">Upload Submissions</h1>
+						<p style="text-align:center;color:white">At Catheartic, we aim to uplift conversations about youth mental health and provide a variety of persepctives. With this in mind, we request submissions of artwork, poetry, or prose from those aged 16-25.</p>
+						<button class="center submit_button" onclick="redir_to_submit()">Submit to Catheartic!</button>
+						
+					</td>
+					<td style="width: 5%; color: rgb(135,206,235)">.</td>
+					
+				</tr>
+			</table>
+
+			
+        </section>
+		<footer>
+			<p style="text-align:center">&copy Catheartic 2023</p>
+			<a href="https://instagram.com/cathearticmag"><img class="center" src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" style="filter: invert(1)" width=30></img></a>
+			
+		</footer>
+		
+	
+	<script>
+		// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("main_header");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+	</script>		
+			
+</body>
+</html>
+     
