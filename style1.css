@@ -12,7 +12,11 @@ td {
 
 .first_column_2
 {
-	width: 1%
+	width: 0.5%
+}
+.first_column_3
+{
+	width: 0.5%
 }
 
 a {
