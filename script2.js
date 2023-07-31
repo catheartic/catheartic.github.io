@@ -1,4 +1,4 @@
-var page_count = 0;
+var page_count = 1;
 function previousPage() {
 
 	var viewer1 = document.getElementById("viewer1");
