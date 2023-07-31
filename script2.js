@@ -25,7 +25,7 @@ function nextPage() {
 	var viewer1_link = viewer1.getAttribute("src");
 	
 	
-	if (page_count == 31) {
+	if (page_count == 32) {
 		var errorMessage = document.getElementById("error");
 		errorMessage.innerHTML = "Last page reached";
 	} else {
