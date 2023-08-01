@@ -8,11 +8,12 @@
 	padding-bottom: 10px;
 	top: 0;
 	position: fixed;
-	left: 0
+	left: 0;
+	width: 100%
 
 }
 td {
-  color: black
+  color: black;
 }
 
 .first_column_2
