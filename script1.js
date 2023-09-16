@@ -6,7 +6,7 @@ function previousPage() {
 	var viewer1_link = viewer1.getAttribute("src");
 	
 	
-	if (page_count == 0) {
+	if (page_count == 1) {
 		var errorMessage = document.getElementById("error");
 		errorMessage.innerHTML = "First page reached";
 	} else {
