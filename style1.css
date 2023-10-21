@@ -2,6 +2,10 @@
   background-color: white
 }
 
+.react-photo-gallery--gallery > td > img {
+    align-self: flex-start;
+}
+
 #main_header {
 	padding-top: 10px;
   	background-color: #cbc3e3;
